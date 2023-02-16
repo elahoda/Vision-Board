@@ -1,0 +1,69 @@
+body {
+    background-color: #e8e8e8;
+}
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    margin: 50px auto;
+
+    background-size: contain;
+    background-image: url("../img/background.png");
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 20px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.small-block {
+ /* border: 1px dashed darkgreen; */
+    float: left;
+    width: 400px;
+    height: 210px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.large-block {
+ /* border: 1px dashed darkgreen; */
+    float: left;
+    width: 400px;
+    height: 430px;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+  /*  display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.right {
+    text-align: right;
+    
+}
+.white-back {
+    background-color:#FFFFFF;
+}
+.grey-back {
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+}
+
+span {
+    background-color: #FFF44F;
+    font-size: 18px;
+}
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    
+}
+#date {
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+}
